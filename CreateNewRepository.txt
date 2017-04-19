@@ -1,0 +1,41 @@
+Steps Of Create New Repository
+
+1)	Connect To 20 Number server.
+
+2)	Go To In Git Folder.
+
+3)	List All folder, here show git folder.
+
+4)	Create Repository in GIT folder.
+
+	git init --bare RepositoryName.git
+
+5)	Go To createed repository, then got hooks folder.
+
+6)	Copy post-recive file into hooks folder.
+
+7)	open post-recive file, and chang the path and write projectname
+
+8) cd Project
+
+9) git clone ~/git/projectname.git
+
+10) cd project/projectname
+ 
+11) ls
+
+12)	Exit from 20 number server,
+	and go to Document Folder where to copy
+	like cd 
+	Mahesh Dhapa@MAHESH ~/Documents (master)
+
+13)	Write down command for clone the .
+
+git clone ssh://stepin@192.168.2.20:/home/stepin/git/ctrl-trainee.git
+
+----------------------------------------------------------------
+
+
+
+
+	

@@ -1,0 +1,75 @@
+stepin@stepin-desktop:~$ exit;
+logout
+Connection to 192.168.2.20 closed.
+Mahesh Dhapa@MAHESH ~/Documents/projects/ciarahtest (master)
+$ git commit -am"change"
+[master 85849d6] change
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+Mahesh Dhapa@MAHESH ~/Documents/projects/ciarahtest (master)
+$ git pull
+stepin@192.168.2.20:'s password:
+Already up-to-date.
+Mahesh Dhapa@MAHESH ~/Documents/projects/ciarahtest (master)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+stepin@192.168.2.20:'s password:
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 344 bytes, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: ===== DEPLOYING TO LIVE SITE =====
+remote: From /home/stepin/git/ciarahtest
+remote:  * branch            master     -> FETCH_HEAD
+remote:    50d9914..85849d6  master     -> origin/master
+remote: error: Your local changes to the following files would be overwritten by
+ merge:
+remote:         index.php
+remote: Please, commit your changes or stash them before you can merge.
+remote: Aborting
+remote: Updating 052b220..85849d6
+remote: ===== DONE =====
+To ssh://stepin@192.168.2.20:/home/stepin/git/ciarahtest.git
+   50d9914..85849d6  master -> master
+Mahesh Dhapa@MAHESH ~/Documents/projects/ciarahtest (master)
+$ ssh stepin@192.168.2.20
+stepin@192.168.2.20's password:
+Welcome to Ubuntu 14.04.4 LTS (GNU/Linux 3.13.0-32-generic i686)
+
+ * Documentation:  https://help.ubuntu.com/
+
+2 packages can be updated.
+0 updates are security updates.
+
+New release '16.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+You have new mail.
+Last login: Fri Feb 10 17:06:55 2017 from 192.168.2.94
+stepin@stepin-desktop:~$ mongo
+MongoDB shell version: 2.0.4
+connecting to: test
+> show dbs
+local   (empty)
+tutorialspoint  0.0625GB
+users   0.0625GB
+>
+bye
+stepin@stepin-desktop:~$ exit;
+logout
+Connection to 192.168.2.20 closed.
+Mahesh Dhapa@MAHESH ~/Documents/projects/ciarahtest (master)
+$ ssh stepin@192.168.2.20

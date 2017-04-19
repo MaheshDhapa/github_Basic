@@ -1,0 +1,47 @@
+git clone ssh://stepin@192.168.2.20:/home/stepin/git/mybizz.git
+
+ssh [port] stepin@192.168.2.20
+
+ scp -r stepin@192.168.2.20:/home/stepin/projects/woocommerce-demo .
+stepin@192.168.2.20's password:
+
+--------------------------------------------------------------
+
+	new for live server and local how to add new files
+
+--------------------------------------------------------------
+---add file ---
+git add *
+
+--git status--
+
+git status
+
+--git pull--
+
+git pull
+
+--git commit -am "msg"---
+
+git commit -am "file modify"
+
+--git push--
+
+git push
+
+--------------------------------------------------------------
+
+Remove Directory
+
+1) rm -rf dirname ( Directory has file)
+
+2) rm dirname	(if Directory is empty)
+
+
+
+
+
+who commerce
+
+
+http://woocommerce.projects.centerfil.com/wc-api/v1/orders/
